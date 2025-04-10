@@ -1,9 +1,11 @@
 import React from 'react'
 import App from './App'
 
-const Thankyou = ({ email , setEmailValid }) => {
+const Thankyou = ({ email ,setEmail, setEmailValid }) => {
     const handleReset = () => {
+        setEmail('')
         setEmailValid(false)
+        
     }
     return (
         <>

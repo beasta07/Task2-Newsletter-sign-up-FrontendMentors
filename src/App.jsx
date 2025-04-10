@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       {emailValid ? (
-        <Thankyou email={email} setEmailValid={setEmailValid} />
+        <Thankyou email={email} setEmail={setEmail} setEmailValid={setEmailValid} />
       ) : (
 
         <div className='bg-[#37384E] w-screen h-screen flex  justify-center items-center '>
